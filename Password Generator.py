@@ -20,13 +20,13 @@ def passwordGen():
             again = input("Do you want to generate another one? (yes/no): ").lower()
 
             if again == "no":
-                print("Exiting password generator...\n")
+                print("Exiting password generator...\)
                 break
             elif again != "yes":
-                print("Invalid input, exiting...\n")
+                print("Invalid input, exiting...")
                 break
 
         except ValueError:
-            print("Merci d'entrer une valeur valide.\n")
+            print("Merci d'entrer une valeur valide.")
 
 passwordGen()
