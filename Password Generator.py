@@ -16,7 +16,7 @@ def passwordGen():
                 continue
 
             if Value <= 0:
-                print("Merci d'entrer un nombre positif.")
+                print("Please enter a positive number.")
                 continue
 
             password = "".join(random.choice(all_characters) for _ in range(Value))
@@ -33,6 +33,6 @@ def passwordGen():
                 break
 
         except ValueError:
-            print("Merci d'entrer une valeur valide.")
+            print("Please enter a valid value.")
 
 passwordGen()
